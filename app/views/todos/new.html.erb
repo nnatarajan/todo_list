@@ -1,5 +1,6 @@
 <h1>New Todo</h1>
-<% f.label :name %>
-<% f.text_field :name %>
+<%= form_for (@todo) do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.submit %>
 <% end %>
-

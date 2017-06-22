@@ -10,6 +10,6 @@ Rails.application.routes.draw do
   # get 'todos/show'
 
   # get 'todos/edit'
-  root 'application#hello'
+  root 'application#welcome'
   resources :todos
 end
